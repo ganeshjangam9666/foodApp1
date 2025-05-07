@@ -60,6 +60,8 @@ import ReactDOM from 'react-dom/client'
 
 
 
+// using jsxx
+
 const heading=<h1 id='heading'>This is h1 from React Module!!</h1>
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(heading);
