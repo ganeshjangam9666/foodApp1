@@ -35,12 +35,31 @@
 
 // creating the sibling elements
 
-const parent=React.createElement('div',
-    {id:'parent'},
-    [React.createElement('h1',{id:'heading'},'This is sibling1'),React.createElement('h2',{id:'head2'},'This is sibling2')]
-);
+// const parent=React.createElement('div',
+//     {id:'parent'},
+//     [React.createElement('h1',{id:'heading'},'This is sibling1'),React.createElement('h2',{id:'head2'},'This is sibling2')]
+// );
 
 
+// const root=ReactDOM.createRoot(document.getElementById('root'));
+// root.render(parent);
+
+
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+
+// using the core react 
+
+
+
+// const heading=React.createElement('h1',{id:'heading'},"This is from core React!!");
+// const root=ReactDOM.createRoot(document.getElementById('root'));
+// root.render(heading);
+
+
+
+const heading=<h1 id='heading'>This is h1 from React Module!!</h1>
 const root=ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent);
-
+root.render(heading);
